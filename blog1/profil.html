@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fauziah's Blog - Profil</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('assets/background1.jpg');
+    background-size: cover; /* Mengatur foto agar menutupi seluruh area */
+    background-repeat: repeat; /* Menghindari pengulangan gambar */
+    background-position: center; /* Memposisikan gambar di tengah */
+    height: 100vh; /* Menjaga body penuh layar */
+    position: relative; /* Dibutuhkan untuk memposisikan elemen absolut */
+}
+    
+main {
+    flex: 1;
+    padding: 20px;
+    padding-bottom: 50px; /* Sesuaikan sesuai tinggi footer */
+}
+
+header {
+    background-color: #F28AA8;
+    color: #ffffff;
+    padding: 5px 0px;
+    text-align: right;
+    width: 100%; /* Lebar lebih kecil untuk background */
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+}
+
+footer {
+    color: white; /* Coba gunakan warna yang sedikit lebih terang dari putih */
+    text-shadow: 1px 1px 2px rgb(253, 253, 253); /* Menambahkan bayangan teks untuk kontras */
+    text-align: center;
+    background-color: #000000;
+    z-index: 10; /* Meningkatkan z-index footer */
+    padding: 5px 0;
+    font-size: 12px;
+    width: 100%; /* Lebar lebih kecil untuk background */
+    margin: 0 auto;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+    </style>
+</head>
+<body>
+<main>
+    <header>
+        <div class="header-container">
+          <h2>Welcome to Fauziah’s Blog</h2>
+          <h1>Gracias Por Visitar Este Blog</h1>
+        </div>
+          <div id="time-date-container">
+              <div id="time"></div>
+              <div id="date"></div>
+          </div>    
+      </header>
+      
+<nav>
+
+    <div class="logo-container">
+        <img src="assets/logoweb.png" alt="Logo" class="logo">
+        <div class="logo-text">
+            <h1>Fauziah's <span class="blog-text">blog</span></h1>
+        </div>
+    </div>
+
+    <a class="menu" href="index.html">Beranda</a>
+    <a class="menu" href="profil.html">Profil</a>
+    <a class="menu" href="mata_kuliah.html">Mata Kuliah</a>
+    <a class="menu" href="picture.html">Picture</a>
+   
+
+    <h1 class="special-title2">Contact</h1>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/fauziah_dhd" target="_blank">
+          <img src="assets/logoig.png" alt="Instagram" class="social-icon">
+      </a>
+      <a href="https://x.com/UzziiFz?t=amvs0Zx3wYzkPEwwtImmag&s=09" target="_blank">
+          <img src="assets/logox.png" alt="Twitter" class="social-icon">
+      </a>
+  </div>
+</nav>
+
+<section id="profil" class="profile-container">
+    <div class="profil-container">
+        <img src="assets/profil.jpg" alt="Foto Profil" class="profil-foto">
+        <h1 class="nama">Fauziah</h1>
+        <p><strong>Tempat Tanggal Lahir:</strong> Siwa, 26 Maret 2006</p>
+        <p><strong>Alamat:</strong> Jln.Hasanuddin, Kec.Banggai Timur, Kab.Majene, Sulawesi Barat</p>
+        <p><strong>Jenis Kelamin:</strong> Perempuan</p>
+        <p><strong>Agama:</strong> Islam</p>
+        <p><strong>Fakultas:</strong> Teknik</p>
+        <p><strong>Prodi:</strong> Informatika</p>
+        <p><strong>Hobi:</strong> Main Game</p>
+        <p><strong>Status:</strong> Second Choice</p>
+        <p><strong>Cita-Cita:</strong> Menjadi kaya raya</p>
+        <p><strong>Pesan:</strong> "Bekerjalah seperti tuyul, gak harus kelihatan, gak butuh pujian,      
+                                        gak gila jabatan, dan yang penting hasilnya sukses."</p>
+    </div>
+</section>
+</main>
+<footer>
+    <p class="p1">&copy; 2024 Blog Sederhana. All Rights Reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
